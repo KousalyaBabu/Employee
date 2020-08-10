@@ -14,8 +14,6 @@ class EmployeeViewModel:ViewModel() {
         return mutableLiveData!!
     }
 
-    fun searchByName(name:String): Employee =mutableLiveData?.value?.find { it.employeeName==name}!!
-
     fun sortAtoZ(){
         mutableLiveData?.value=mutableLiveData?.value?.sortedBy { it.employeeName}
     }
