@@ -1,4 +1,4 @@
-package com.example.employeeinfoapplication
+package com.example.employeeinfoapplication.ui
 
 import android.os.Bundle
 import android.text.Editable
@@ -11,8 +11,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.employeeinfoapplication.ui.EmployeeAdapter
-import com.example.employeeinfoapplication.ui.EmployeeViewModel
+import com.example.employeeinfoapplication.viewModel.EmployeeViewModel
 
 class EmployeeActivity:AppCompatActivity(),TextWatcher {
     private var employeeViewModel: EmployeeViewModel?=null

@@ -1,4 +1,4 @@
-package com.example.employeeinfoapplication.ui
+package com.example.employeeinfoapplication.repository
 
 import android.content.Context
 import androidx.lifecycle.MutableLiveData
@@ -36,4 +36,5 @@ object EmployeeRepository{
             employees.add(Employee(id, employeeName, employeeSalary, employeeAge, profileImage))
         }
     }
+
 }

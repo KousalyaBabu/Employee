@@ -1,10 +1,11 @@
-package com.example.employeeinfoapplication.ui
+package com.example.employeeinfoapplication.viewModel
 
 import android.content.Context
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.example.employeeinfoapplication.data.employee.Employee
+import com.example.employeeinfoapplication.repository.EmployeeRepository
 
 class EmployeeViewModel:ViewModel() {
     private var mutableLiveData:MutableLiveData<List<Employee>>?=null
